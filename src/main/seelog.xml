@@ -1,0 +1,9 @@
+<seelog>
+    <outputs  formatid="main">
+        <file path="log.txt"/>
+           <console/>
+    </outputs>
+	<formats>
+        <format id="main" format="%Date/%Time [%LEV] %Msg%n"/>
+    </formats>
+</seelog>
